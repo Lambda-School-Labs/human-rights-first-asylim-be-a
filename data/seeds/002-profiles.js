@@ -11,7 +11,7 @@ const profiles = [...new Array(9)].map((i, idx) => ({
 
 /*
   Manually setting the `id` for each profile to the Okta provided ID. Adding
-  profiles was not in scope for this iteration, but adding profiles in the 
+  profiles was not in scope for this iteration, but adding profiles in the
   future will require the okta-id to be set as the `id` for each profile.
 */
 profiles[0].user_id = '00u19v1wwrVU5Ui1j5d7';
